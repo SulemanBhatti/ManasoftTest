@@ -1,0 +1,179 @@
+.root{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(201,201,201));
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.content-div{
+    background-color: white;
+    width: 90%;
+    margin-top: 5%;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #C4C4C4;
+    display: inline-flex;
+}
+
+.content-div-info{
+    width: 40%;
+    margin: 3% 0 0 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-div-pic{
+    width: 40%;
+    margin: 3% 0 0 5%;
+    background-color: red;
+    margin-bottom: 3%;
+}
+
+.title-text{
+    text-align: start;
+    color: #001D7A;
+    font-size: 3rem;
+    margin:0;
+    font-weight: bold;
+}
+
+hr { 
+    display: block; 
+    height: 2px;
+    background-color: orangered;
+    border: 0;
+    margin: 1em 0; 
+    padding: 0; 
+    width: 10%;
+}
+
+.signup-options{
+    color:orangered;
+    margin:7px; 
+    padding-left: 20px;
+}
+
+.signup-opt-btn-google{
+    display: flex; 
+    border:1px solid rgb(223, 223, 223); 
+    border-radius: 7px; 
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    background-color: white;
+    width: 82%;
+}
+.signup-opt-btn-fb{
+    display: flex; 
+    border:1px solid rgb(223, 223, 223); 
+    border-radius: 7px; 
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    background-color: white;
+    width: 81%;
+}
+
+.signup-options-button-img{
+    background-color: red; 
+    height: 12px; 
+    width: 12px; 
+    margin: auto;
+}
+
+.signup-name{
+    display: flex; 
+    border:1px solid rgb(223, 223, 223); 
+    border-radius: 7px; 
+    font-size: 10px;
+    cursor: pointer;
+    height: 35px;
+    background-color: white;
+    width: 80%;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.signup-password{
+    display: flex; 
+    border:1px solid rgb(223, 223, 223); 
+    border-radius: 7px; 
+    font-size: 10px;
+    cursor: pointer;
+    height: 35px;
+    background-color: white;
+    width: 90%;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.signup-email{
+    display: flex; 
+    border:1px solid rgb(223, 223, 223); 
+    border-radius: 7px; 
+    font-size: 10px;
+    cursor: pointer;
+    height: 35px;
+    background-color: white;
+    width: 80%;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.term-and-cond-check{
+    margin: 0; 
+    font-size: 12px; 
+    text-align: start; 
+    width:65%
+}
+
+.next-btn{
+    border:1px solid #F66C6C; 
+    border-radius: 23px; 
+    font-size: 10px;
+    cursor: pointer;
+    height: 60px;
+    background-color: #F66C6C;
+    width: 60px;
+    font-size: 20px;
+    box-shadow: 0px 1px 5px #F66C6C;
+}
+
+.flex-property{
+    display: flex;
+}
+.auto-margin-property{
+    margin: auto;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.field-text{
+    margin: 0; 
+    font-size: 12px;
+    text-align: start;
+}
+
+.next-arrow-icon{
+    width:12px; 
+    height: 12px;
+}
+.next-btn-parent{
+    text-align: start; 
+    margin-top:10px
+}
+
+.quick-signup{
+    font-size: 12px; 
+    text-align: start;
+}
+
+
+@media screen and (min-width: 480px) {
+    .root {
+        margin-bottom: 10%;
+    }
+}
+
